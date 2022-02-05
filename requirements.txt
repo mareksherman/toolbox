@@ -8,6 +8,11 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
+chardet
+imbalanced-learn
+
+# glob2
+scipy
 
 # tests/linter
 black
@@ -21,9 +26,22 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
+uvicorn
+fastapi
 
 # utilities
 six>=1.14
 joblib
 memoized-property
 termcolor
+
+# Data Retrieval
+kaggle
+pandas_gbq
+
+#webapp
+streamlit
+
+# models
+lightgbm==2.2.3
+xgboost==0.90
